@@ -1,0 +1,9 @@
+jupyterlab
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+statsmodels
+fastcluster
+

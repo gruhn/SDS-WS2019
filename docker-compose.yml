@@ -2,9 +2,9 @@ version: "3"
 
 services:
   jupyter:
-    build: .docker/jupyter
+    build: .
     ports:
       - "8888:8888"
     working_dir: /opt/notebooks
     volumes:
-      - ./notebooks:/opt/notebooks:delegated
+      - ./src:/opt/notebooks:delegated
